@@ -1,0 +1,162 @@
+.subscribe-wrapper {
+    
+    
+    
+    
+}
+
+.subscribe {
+
+position: relative;
+margin-right: 0px;
+padding: 35px 0;
+
+    
+&:before {
+content: "" ; 
+position: absolute;
+z-index: 2;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 76, 255, 0.75); 
+    
+}  
+    
+ 
+
+@media (min-width: 520px) {
+   padding: 85px 0;
+ }
+
+
+@media (min-width: 768px) {
+   padding: 155px 0;
+ }
+ 
+ 
+ 
+ }
+
+
+
+
+
+.subscribe__img {
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+    
+    
+}
+
+.subscribe__overlay {
+ position: relative;
+ z-index: 3;
+ padding: 0 15px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+
+.subscribe__title {
+    color: #ffffff;
+    font-family: "Teco", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+	
+	@media (min-width: 520px){
+     margin-bottom: 40px;
+	 font-size: 52px;
+ }
+	
+	
+	@media (min-width: 768px){
+     margin-bottom: 80px;
+     font-size: 87px;
+ }
+	
+}
+
+
+
+.subscribe__form {
+   display: flex; 
+   width: 100%;
+   flex-direction: column;
+
+ 
+ @media (min-width: 520px){
+   flex-direction: row;
+ }
+ 
+ 
+ 
+ @media (min-width: 992px){
+   width: 900px;
+ }
+   
+}
+
+
+
+.subscribe__input {
+   background-color: #ffffff;
+   padding: 0;
+   height: 62px;
+   color: #707070;
+   font-size: 19px;
+   font-family: "Montserrat", sans-serif;
+    border: none;
+    padding-left: 44px;
+    padding-right: 44px;
+    flex-grow: 2;
+}
+
+.subscribe__button {
+    display: inline-block;
+    width: 100%;
+    height: 62px;
+    background-color: #004cff;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    flex-shrink: 0;
+
+   @media (min-width: 520px){
+   width: 180px;
+ }
+
+	
+	
+	
+}
+
+
+
+
+.subscribe__button:hover {
+background-color: #3471ff; 
+
+}
+
+
